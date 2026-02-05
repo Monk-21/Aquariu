@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Aquarium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav  class="nav">
+        <div class="container inner-nav">
+            <div class="logo">Vivek Aquarium</div>
+            <button class="nav-toggle" aria-label="toggle-navigation">
+                ☰
+            </button>
+            <ul class="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Index.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page">
+    <header class="hero">
+        <div class="container">
+            <h1>Fresh, Healthy Fish for Your Home Aquarium</h1>
+            <p>Quality ornamental fish, accessories, and expert guidance — all in one place.</p>
+        </div>
+    </header>
+
+    
+
+    <section class="cards">
+        <div class="container cards-grid">
+
+            <div class="card">
+                 <img src="Images/Aquarium-1.jpg" alt="Variety of aquarium fish">
+                <h3>Wide Variety</h3>
+                <p>Freshwater & ornamental fish for all aquarium sizes.</p>
+                
+            </div>
+             <div class="card">
+                 <img src="Images/Aquarium-2.jpg" alt="Variety of aquarium fish">
+                <h3>Healthy & Hygienic</h3>
+                <p>Proper care, clean tanks, and expert handling.
+                </p>
+            </div>
+             <div class="card">
+                 <img src="Images/Aquarium-3.jpg" alt="Variety of aquarium fish">
+                    <h3>Expert Guidance</h3>
+                    <p>Get advice on setup, feeding, and maintenance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <h3>Opens</h3>
+                <p>Open 7 days a week</p>
+            </div>
+            <div class="feature">
+                <h3>Location</h3>
+                <p>Located in Devendra Nagar.</p>
+            </div>
+             <div class="feature">
+                <h3>Hours</h3>
+                <p>From 9 am to 9 pm</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Get your own aquarium today!</h2>
+            <a 
+        href="https://maps.app.goo.gl/RHQNVGUUcNoxVzSh8" 
+        class="btn" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        >
+        Visit Our Shop
+        </a>
+
+        </div>
+    </section>
+    </main>
+
+    <script><!-- Toggles mobile navigation visibility -->
+        const toggle = document.querySelector('.nav-toggle');
+        const links = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            links.classList.toggle('active');
+        })
+    </script>
+
+</body>
+</html>
