@@ -172,9 +172,6 @@ nav {
 
  }
 
- .features .container {
-    flex-direction: row;
- }
 
  .contact {
   padding: clamp(4rem, 8vw, 6rem) 0;
@@ -200,3 +197,4 @@ nav {
   font-weight: 600;
   text-decoration: none;
 }
+
